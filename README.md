@@ -1,1 +1,1 @@
-This floder has all my projects
+This folder has all my projects
