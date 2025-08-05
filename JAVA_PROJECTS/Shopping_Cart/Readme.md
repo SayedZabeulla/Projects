@@ -13,9 +13,9 @@ The program asks the user what item they want to purchase, the price, and quanti
 
 ## Sample Output
 
-what item would you like to buy?: Notebook
-What is the price for each?: 3.5
-How many would you like to buy?: 4
+what item would you like to buy?: Notebook<br>
+What is the price for each?: 3.5<br>
+How many would you like to buy?: 4<br>
 
-You Have bought 4 Notebook/s
+You Have bought 4 Notebook/s<br>
 Your Total is $14.0
