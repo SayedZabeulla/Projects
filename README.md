@@ -28,8 +28,8 @@ Welcome to my GitHub portfolio! This repository serves as a central hub for all 
 ### 🔸 Java Projects
 | Project                     | Description                                    |
 |----------------------------|------------------------------------------------|
-| `EmployeeManagementSystem` | CLI app for managing employee data             |
-| `BankingApplication`       | Java OOP project for simulating bank operations|
+| `Mad Libs`                 | A simple command-line **Mad Libs**-style story generator written in Java.|
+| `Shopping Cart`            | A beginner-friendly command-line **Shopping Cart** application written in Java.|
 
 ---
 
