@@ -11,7 +11,7 @@ Welcome to my GitHub portfolio! This repository serves as a central hub for all 
 ## 📂 Repository Structure
 
 ```
-/java-projects       → Core Java applications and algorithms  
+/Projects       → Java_Projects  
 ```
 
 ---
