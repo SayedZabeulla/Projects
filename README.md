@@ -1,4 +1,4 @@
-# 🚀 My Developer Portfolio
+# 🚀 My Project Portfolio
 
 ![Profile Views](https://komarev.com/ghpvc/?username=SayedZabeulla&label=Profile%20views&color=0e75b6&style=flat)
 [![GitHub Followers](https://img.shields.io/github/followers/SayedZabeulla?label=Follow&style=social)](https://github.com/SayedZabeulla)
