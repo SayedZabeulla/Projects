@@ -1,7 +1,7 @@
 # 🚀 My Developer Portfolio
 
-![Profile Views](https://komarev.com/ghpvc/?username=your-username&label=Profile%20views&color=0e75b6&style=flat)
-[![GitHub Followers](https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png)](https://github.com/SayedZabeulla)
+![Profile Views](https://komarev.com/ghpvc/?username=SayedZabeulla&label=Profile%20views&color=0e75b6&style=flat)
+[![GitHub Followers](https://img.shields.io/github/followers/SayedZabeulla?label=Follow&style=social)](https://github.com/SayedZabeulla)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=social)](https://www.linkedin.com/in/sayed-zabeulla-b5bb0536b/)
 
 Welcome to my GitHub portfolio! This repository serves as a central hub for all my **Java** projects. I’m passionate about building robust, scalable software solutions from backend logic to interactive UIs.
