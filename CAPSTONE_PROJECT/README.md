@@ -47,8 +47,7 @@ It ensures **data integrity, security, and decentralized availability** by combi
 ## 📧 Contact
 
 **📩 Email:** Sayedzabeulla@gmail.com
-**🔗 LinkedIn:** Sayed Zabeulla
-**💻 GitHub:** SayedZabeulla
+**🔗 LinkedIn:** [Sayed Zabeulla](https://www.linkedin.com/in/sayed-zabeulla-b5bb0536b/)
 
 ## ⭐ Support
 If you find this project useful, consider giving it a star 🌟 on GitHub!
