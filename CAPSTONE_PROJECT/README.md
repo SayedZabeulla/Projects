@@ -30,13 +30,25 @@ It ensures **data integrity, security, and decentralized availability** by combi
 | **DevOps**       | Docker, Git, GitHub |
 
 ---
-
+## 📂 Folder Structure
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/SayedZabeulla/Secure-File-Storage-DApp.git
-cd Secure-File-Storage-DApp
+
+## 📸 Screenshots
+(Add screenshots of your UI here for better GitHub presentation)
+
+## 🤝 Contributors
+
+
+## 📧 Contact
+
+**📩 Email:** Sayedzabeulla@gmail.com
+**🔗 LinkedIn:** Sayed Zabeulla
+**💻 GitHub:** SayedZabeulla
+
+## ⭐ Support
+If you find this project useful, consider giving it a star 🌟 on GitHub!
