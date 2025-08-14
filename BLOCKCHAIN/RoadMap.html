@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Roadmap: Secure File Storage System</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --background-color: #ecf0f1;
+            --card-bg-color: #ffffff;
+            --text-color: #34495e;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+            --connector-color: #bdc3c7;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            line-height: 1.6;
+        }
+
+        .roadmap-container {
+            width: 100%;
+            max-width: 900px;
+            position: relative;
+        }
+        
+        .roadmap-title {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 50px;
+            font-size: 2.5rem;
+        }
+
+        .phase {
+            background-color: var(--card-bg-color);
+            border-left: 5px solid var(--secondary-color);
+            padding: 25px 30px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            position: relative;
+        }
+
+        .phase-connector {
+            width: 4px;
+            height: 40px;
+            background-color: var(--connector-color);
+            margin: 0 auto;
+        }
+
+        .phase h2 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        .phase h2 span {
+            font-size: 1rem;
+            color: #7f8c8d;
+            font-weight: 500;
+            display: block;
+            margin-top: 5px;
+        }
+
+        .phase h3 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            font-size: 1.3rem;
+        }
+
+        .phase ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .phase ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+
+        .phase ul li::before {
+            content: '✓';
+            color: var(--secondary-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        .tech-list {
+            font-style: italic;
+            color: #555;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="roadmap-container">
+        <h1 class="roadmap-title">Roadmap: Secure File Storage & Sharing System</h1>
+
+        <div class="phase">
+            <h2>Phase 1: Foundation & Planning <span>(Weeks 1-2)</span></h2>
+            <h3>🎯 Objective</h3>
+            <p>To establish a rock-solid plan. Define the project scope, architecture, and roles before writing any code.</p>
+            <h3>🔨 Key Activities</h3>
+            <ul>
+                <li>Define detailed user stories (register, upload, share, etc.).</li>
+                <li>Design the high-level system architecture.</li>
+                <li>Finalize the technology stack.</li>
+                <li>Assign primary roles to each team member.</li>
+                <li>Initialize a Git repository for version control.</li>
+            </ul>
+             <h3>💻 Technology/Tools</h3>
+            <p class="tech-list">Git, GitHub, Diagramming Tools (like draw.io)</p>
+        </div>
+        <div class="phase-connector"></div>
+
+        <div class="phase">
+            <h2>Phase 2: Environment Setup & Prototyping <span>(Weeks 3-4)</span></h2>
+            <h3>🎯 Objective</h3>
+            <p>To install all necessary tools and create simple "proof-of-concept" programs for each core technology to ensure they work in isolation.</p>
+            <h3>🔨 Key Activities</h3>
+            <ul>
+                <li>Set up local developer environments for all team members.</li>
+                <li>Create an IPFS prototype to upload and retrieve a file.</li>
+                <li>Create a Blockchain prototype using Hardhat to deploy a test contract.</li>
+                <li>Create a basic Java Spring Boot project with a single test API endpoint.</li>
+            </ul>
+            <h3>💻 Technology/Tools</h3>
+            <p class="tech-list">Java JDK, Node.js, Docker, IPFS Kubo, Hardhat, Spring Boot</p>
+        </div>
+        <div class="phase-connector"></div>
+
+        <div class="phase">
+            <h2>Phase 3: Core Backend Development <span>(Weeks 5-7)</span></h2>
+            <h3>🎯 Objective</h3>
+            <p>Build the central application server using Java. This layer will handle all business logic and connect the other components.</p>
+            <h3>🔨 Key Activities</h3>
+            <ul>
+                <li>Develop REST APIs for user authentication (Register/Login) using JWT for security.</li>
+                <li>Create stub API endpoints for file management actions.</li>
+                <li>Implement file encryption (AES-256) and decryption logic.</li>
+            </ul>
+            <h3>💻 Technology/Tools</h3>
+            <p class="tech-list">Java, Spring Boot, Spring Security (JWT), Maven/Gradle, Postman</p>
+        </div>
+        <div class="phase-connector"></div>
+
+        <div class="phase">
+            <h2>Phase 4: Smart Contract Development <span>(Weeks 6-8)</span></h2>
+            <h3>🎯 Objective</h3>
+            <p>To write, test, and deploy the blockchain logic that will manage file metadata and access permissions securely.</p>
+            <h3>🔨 Key Activities</h3>
+            <ul>
+                <li>Write the Solidity smart contract with structs and mappings for file metadata.</li>
+                <li>Implement functions for adding files, granting access, and revoking access.</li>
+                <li>Write comprehensive unit tests for every smart contract function.</li>
+                <li>Deploy the contract to the local Hardhat network.</li>
+            </ul>
+            <h3>💻 Technology/Tools</h3>
+            <p class="tech-list">Solidity, Hardhat, Chai, Mocha</p>
+        </div>
+        <div class="phase-connector"></div>
+        
+        <div class="phase">
+            <h2>Phase 5: Frontend Development <span>(Weeks 7-9)</span></h2>
+            <h3>🎯 Objective</h3>
+            <p>To build the user interface that allows users to interact with the system easily.</p>
+            <h3>🔨 Key Activities</h3>
+            <ul>
+                <li>Create UI components for login, registration, file dashboard, and upload/sharing forms.</li>
+                <li>Connect the UI to the Java backend REST APIs to fetch and send data.</li>
+                <li>Integrate a browser wallet like MetaMask for blockchain interactions.</li>
+            </ul>
+            <h3>💻 Technology/Tools</h3>
+            <p class="tech-list">React.js, ethers.js / web3.js, CSS, MetaMask</p>
+        </div>
+        <div class="phase-connector"></div>
+
+        <div class="phase">
+            <h2>Phase 6: Integration & System Testing <span>(Weeks 10-12)</span></h2>
+            <h3>🎯 Objective</h3>
+            <p>To connect all the independent parts (Frontend, Backend, IPFS, Blockchain) into a single, cohesive, working system.</p>
+            <h3>🔨 Key Activities</h3>
+            <ul>
+                <li>Integrate the Java backend with IPFS for file storage.</li>
+                <li>Integrate the Java backend with the deployed Smart Contract using the web3j library.</li>
+                <li>Perform end-to-end testing of the complete user flow (from upload to sharing).</li>
+                <li>Identify and fix bugs across the full application stack.</li>
+            </ul>
+            <h3>💻 Technology/Tools</h3>
+            <p class="tech-list">web3j (Java library), IPFS, All previously mentioned tools</p>
+        </div>
+        <div class="phase-connector"></div>
+
+        <div class="phase">
+            <h2>Phase 7: Final Touches & Deployment <span>(Weeks 13)</span></h2>
+            <h3>🎯 Objective</h3>
+            <p>To polish the application and deploy it to a public test network to make it accessible and verifiable.</p>
+            <h3>🔨 Key Activities</h3>
+            <ul>
+                <li>Refine the user interface and user experience based on testing feedback.</li>
+                <li>Deploy the final smart contract to a public testnet (e.g., Sepolia).</li>
+                <li>Update backend configuration to use the public testnet contract.</li>
+                <li>(Optional) Containerize the backend and frontend using Docker for easy deployment.</li>
+            </ul>
+            <h3>💻 Technology/Tools</h3>
+            <p class="tech-list">Docker, Ethereum Testnet (Sepolia), Infura/Alchemy (API service)</p>
+        </div>
+        <div class="phase-connector"></div>
+        
+        <div class="phase">
+            <h2>Phase 8: Documentation & Presentation <span>(Weeks 14-15)</span></h2>
+            <h3>🎯 Objective</h3>
+            <p>To prepare the final project report, presentation, and demo for your university submission.</p>
+            <h3>🔨 Key Activities</h3>
+            <ul>
+                <li>Write the comprehensive final project report.</li>
+                <li>Create a presentation slideshow summarizing the project.</li>
+                <li>Record a clear video demonstration of the live, working application.</li>
+                <li>Prepare for the final project defense (viva voce).</li>
+            </ul>
+            <h3>💻 Technology/Tools</h3>
+            <p class="tech-list">Microsoft Word / LaTeX, PowerPoint / Google Slides, Screen Recording Software</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
