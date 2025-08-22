@@ -26,10 +26,10 @@ Welcome to my GitHub portfolio! This repository serves as a central hub for all 
 
 ## 📘 Featured Projects
 
-|Project|Description|Code Repository| 
+|Project & Language|Description|Code Repository| 
 |---|---|---|
-| `Mad Libs`| A simple command-line **Mad Libs**-style story generator written in Java.|[![View Code](https://img.shields.io/badge/GOTO-REPO-blue.svg)](https://github.com/SayedZabiulla/Projects/tree/main/JAVA_PROJECTS)|
-| `Shopping Cart`| A beginner-friendly command-line **Shopping Cart** application written in Java.|[![View Code](https://img.shields.io/badge/GOTO-REPO-blue.svg)](https://github.com/SayedZabiulla/Projects/tree/main/CAPSTONE_PROJECT)|
+|`Mad Libs`→ *JAVA*| A simple command-line **Mad Libs**-style story generator written in Java.|[![View Code](https://img.shields.io/badge/GOTO-REPO-blue.svg)](https://github.com/SayedZabiulla/Projects/tree/main/JAVA_PROJECTS)|
+|`Shopping Cart`→ *JAVA*| A beginner-friendly command-line **Shopping Cart** application written in Java.|[![View Code](https://img.shields.io/badge/GOTO-REPO-blue.svg)](https://github.com/SayedZabiulla/Projects/tree/main/CAPSTONE_PROJECT)|
 
 ---
 
