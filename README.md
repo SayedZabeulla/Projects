@@ -11,25 +11,26 @@ Welcome to my GitHub portfolio! This repository serves as a central hub for all 
 ## 📂 Repository Structure
 
 ```
-/Projects       → Java_Projects  
+/Projects       → Java_Projects 
+                → CAPSTONE_PROJECT
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Languages**: Java
-- **Tools**: Git
+- **Languages**: Java, Python
+- **Tools**: Git, VS Code, Git Hub
 
 ---
 
 ## 📘 Featured Projects
 
 ### 🔸 Java Projects
-| Project                     | Description                                    |
-|----------------------------|------------------------------------------------|
-| `Mad Libs`                 | A simple command-line **Mad Libs**-style story generator written in Java.|
-| `Shopping Cart`            | A beginner-friendly command-line **Shopping Cart** application written in Java.|
+|Project| Description|Code Repository| 
+|---|---|---|
+| `Mad Libs`| A simple command-line **Mad Libs**-style story generator written in Java.|[![View Code](https://img.shields.io/badge/GOTO-REPO-blue.svg)](https://github.com/SayedZabiulla/Projects/tree/main/JAVA_PROJECTS)|
+| `Shopping Cart`| A beginner-friendly command-line **Shopping Cart** application written in Java.|[![View Code](https://img.shields.io/badge/GOTO-REPO-blue.svg)](https://github.com/SayedZabiulla/Projects/tree/main/CAPSTONE_PROJECT)|
 
 ---
 
@@ -48,8 +49,9 @@ Browse into folders and follow individual README files for setup, run commands, 
 
 ## 🤝 Connect With Me
 
-- 📧 **Email:** SayedZabeulla@gmail.com  
-- 🔗 **LinkedIn:** https://www.linkedin.com/in/sayed-zabeulla-b5bb0536b/  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sayed%20Zabiulla-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sayed-zabiulla-b5bb0536b/)
+[![GitHub](https://img.shields.io/badge/GitHub-SayedZabiulla-grey?style=for-the-badge&logo=github)](https://github.com/SayedZabiulla)
+[![Gmail](https://img.shields.io/badge/Gmail-sayedzabeulla@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:sayedzabeulla@gmail.com) 
 
 ---
 
